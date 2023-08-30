@@ -96,7 +96,7 @@
 }
 
 \newcommand{\iconempty}[2]{% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	\vcenteredhbox{\colorbox{black}{\makebox(#1, #1){\textcolor{white}{\large }}}}% Icon and box
+	\vcenteredhbox{\colorbox{black}{\makebox(#1, #1){\textcolor{white}{\tiny \faCircle}}}}% Icon and box
 	\hspace{0.2cm}% Whitespace
 	\vcenteredhbox{\textcolor{black}{#2}}% Text
 }
