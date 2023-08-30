@@ -1,7 +1,7 @@
 ---
-type = "Project"
-url = "git.huizinga.dev/Dreaded_X/pico_p1"
-title = "Pico P1"
+project:
+    url: git.huizinga.dev/Dreaded_X/pico_p1
+    title: Pico P1
 ---
 
 This is my most recent project, as I had recently decided to pick up a [Raspberry Pi Pico W] just to play around with.

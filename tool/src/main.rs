@@ -4,13 +4,13 @@ use std::{
     path::Path,
 };
 
-use gray_matter::{engine::TOML, Matter};
+use gray_matter::{engine::YAML, Matter};
 use regex::{Captures, Regex};
 use serde::Deserialize;
 use walkdir::WalkDir;
 
 #[derive(Debug, Deserialize)]
-#[serde(tag = "type")]
+#[serde(rename_all = "snake_case")]
 enum FrontMatter {
     Project { title: String, url: String },
 }
@@ -26,7 +26,7 @@ fn main() -> anyhow::Result<()> {
 }
 
 fn generate_latex() -> anyhow::Result<()> {
-    let matter = Matter::<TOML>::new();
+    let matter = Matter::<YAML>::new();
 
     let prefix = Path::new("../markdown");
 
@@ -88,7 +88,7 @@ fn generate_readme() -> anyhow::Result<()> {
     let mut contents = String::new();
     file.read_to_string(&mut contents)?;
 
-    let matter = Matter::<TOML>::new();
+    let matter = Matter::<YAML>::new();
 
     let re = Regex::new(r"\#\{(.*)\}").expect("Regex should be valid");
     let contents = re.replace_all(&contents, |caps: &Captures| {

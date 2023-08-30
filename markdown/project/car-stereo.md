@@ -1,7 +1,7 @@
 ---
-type = "Project"
-url = "git.huizinga.dev/Dreaded_X/car-stereo"
-title = "Car Stereo"
+project:
+    url: git.huizinga.dev/Dreaded_X/car-stereo
+    title: Car Stereo
 ---
 
 My Peugeot 207 only has bluetooth for calling, so I decided it would be fun to build my own bluetooth receiver using the [ESP32] microcontroller.

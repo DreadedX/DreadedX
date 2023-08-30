@@ -1,7 +1,7 @@
 ---
-type = "Project"
-url = "git.huizinga.dev/Dreaded_X/automation_rs"
-title = "Home Automation"
+project:
+    url: git.huizinga.dev/Dreaded_X/automation_rs
+    title: Home Automation
 ---
 
 I have slowly been converting my house into my very own smart home!
