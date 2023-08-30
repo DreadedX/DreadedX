@@ -43,6 +43,8 @@
 
 \usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
 
+\usepackage[none]{hyphenat}
+
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
