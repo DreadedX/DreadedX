@@ -1,4 +1,7 @@
 latex/
+_markdown_main
+*.markdown.*
+main.pdf
 # Created by https://www.toptal.com/developers/gitignore/api/latex,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex,dotenv
 
