@@ -1,0 +1,10 @@
+- name: MSc
+  description: Applied Physics with a focus on Quantum Computation.
+  at: Delft University of Technology
+  start: 2019
+
+- name: BSc
+  description: Applied Physics with a minor in Electronics for Robotics.
+  at: Delft University of Technology
+  start: 2016
+  end: 2019

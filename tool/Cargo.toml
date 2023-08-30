@@ -13,4 +13,5 @@ gray_matter = { version = "0.2.6", features = [
 ], default-features = false }
 regex = "1.9.4"
 serde = { version = "1.0.188", features = ["derive"] }
+serde_yaml = "0.9.25"
 walkdir = "2.3.3"

@@ -40,8 +40,7 @@
 
 \begin{document}
 
-% File containing somewhat private information, not checked into the repository
-\input{latex/private.tex}
+\input{{{lang}}.tex}
 
 %----------------------------------------------------------------------------------------
 %	TITLE AND CONTACT INFORMATION
@@ -65,9 +64,16 @@
 
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{\faMapMarker*}{12}{Delft}\\
-	\icon{\faPhone*}{12}{\phone}\\
-	\icon{\faAt}{12}{\href{mailto:\email}{\texttt{\email}}}\\
+	\IfFileExists{latex/private.tex}{
+		% File containing somewhat private information, not checked into the repository
+		\input{latex/private.tex}
+
+		\icon{\faMapMarker*}{12}{\City}\\
+		\icon{\faPhone*}{12}{\Phone}\\
+		\icon{\faAt}{12}{\href{mailto:\Email}{\texttt{\Email}}}\\
+	}{
+		\hfill
+	}
 \end{minipage}
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
@@ -85,12 +91,12 @@
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
 
-\cvsect{Who Am I?}
+\cvsect{\WhoAmI}
 
 \begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\input{latex/blurb.tex}
+	\input{latex/blurb.{{lang}}.md.tex}
 
 \end{minipage}
 
@@ -98,38 +104,20 @@
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\cvsect{Experience}
+\cvsect{\Experience}
 
 \begin{entrylist}
-	\entry
-		{2019}
-		{App Developer}
-		{EOCE}
-		{I developed in internal Android app to aid in the calibration of temperature sensors.}
-	\entry
-		{2018 -- 2019}
-		{Teaching Assistant}
-		{Delft University of Technology}
-		{I helped others students if they had questions during tutorial sessions for the course Electromagnetism.}
+	\input{latex/experience.{{lang}}.yml.tex}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\cvsect{Education}
+\cvsect{\Education}
 
 \begin{entrylist}
-	\entry
-		{2019 -- Now}
-		{MSc}
-		{Delft University of Technology}
-		{Applied Physics with a focus on Quantum Computation.}
-	\entry
-		{2016 -- 2019}
-		{BSc}
-		{Delft University of Technology}
-		{Applied Physics with a minor in Electronics for Robotics.}
+	\input{latex/education.{{lang}}.yml.tex}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -139,7 +127,7 @@
 \begin{minipage}[t]{0.18\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Programming languages}
+	\cvsect{\ProgrammingLanguages}
 
 	\iconsvg{rust}{12}{Rust}\\
 	\hfill
@@ -173,9 +161,9 @@
 \begin{minipage}[t]{0.18\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Other skills}
+	\cvsect{\OtherSkills}
 
-	\icon{\faCalculator}{12}{Maths}\\
+	\icon{\faCalculator}{12}{\Maths}\\
 	\hfill
 	\iconsvg{linux}{12}{Linux}\\
 	\hfill
@@ -189,7 +177,7 @@
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	\vspace{32.35pt} % Make sure it lines up with the rest
 
-	\icon{\faApple*}{12}{Physics}\\
+	\icon{\faApple*}{12}{\Physics}\\
 	\hfill
 	\iconsvg{bash}{12}{Bash}\\
 	\hfill
@@ -197,16 +185,16 @@
 	\hfill
 	\icon{\faMicrochip}{12}{Embedded}\\
 	\hfill
-	\iconempty{12}{Soldering}\\
+	\iconempty{12}{\Soldering}\\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.18\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Languages}
+	\cvsect{\Languages}
 
-	\textbf{Dutch} - native\\
-	\textbf{English} - near native
+	\textbf{\Dutch} - native\\
+	\textbf{\English} - near native
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -217,26 +205,26 @@
 \begin{minipage}[t]{1\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\colorbox{black}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Projects}}}}}
+	\colorbox{black}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{\Projects}}}}}
 \end{minipage}
 
 \vspace{8pt}
 
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/z80.tex}
+	\input{latex/project/z80.{{lang}}.md.tex}
 	\vspace{6pt}
-	\input{latex/project/pico_p1.tex}
+	\input{latex/project/pico_p1.{{lang}}.md.tex}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/car-stereo.tex}
+	\input{latex/project/car-stereo.{{lang}}.md.tex}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/automation.tex}
+	\input{latex/project/automation.{{lang}}.md.tex}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}

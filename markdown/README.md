@@ -1,8 +1,8 @@
 # Hi! I'm Tim Huizinga
-#{blurb.md}
+#{blurb.en.md}
 
 ## Projects
-#{project/z80.md}
-#{project/car-stereo.md}
-#{project/automation.md}
-#{project/pico_p1.md}
+#{project/z80.en.md}
+#{project/car-stereo.en.md}
+#{project/automation.en.md}
+#{project/pico_p1.en.md}

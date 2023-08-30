@@ -30,7 +30,7 @@ However since then I have also connected the [ESP32] to the [CAN bus] of my car,
 
 ### [Home Automation](https://git.huizinga.dev/Dreaded_X/automation_rs)
 I have slowly been converting my house into my very own smart home!
-It all started with a couple of Philips Hue light bulbs, the Hue app allows for some level of automation but it wasn't quite doing what I wanted.
+It all started with a couple of [Philips Hue] light bulbs, the Hue app allows for some level of automation but it wasn't quite doing what I wanted.
 So initially I wrote a very simple program in [Go] to add my own automations.
 As I added more smart devices to my house, the program grew massively in scope with things quickly getting hacked in just to make it work.
 Eventually I decided to rewrite the whole thing in Rust!
@@ -42,10 +42,11 @@ This was my first real Rust after picking up the language during [Advent of Code
 
 ### [Pico P1](https://git.huizinga.dev/Dreaded_X/pico_p1)
 This is my most recent project, as I had recently decided to pick up a [Raspberry Pi Pico W] just to play around with.
-I decided to build a device to read out my [DSMR5] based smart meter using it's P1 port and publish the information using MQTT.
+I decided to build a device to read out my [DSMR5] based smart meter using it's P1 port and publish the information using [MQTT].
 The main intention of this project is to learn about Rust for embedded devices, which is still a very new ecosystem.
 So far it has been quite a nice experience!
 
 [Raspberry Pi Pico W]: https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_Pico
 [DSMR5]: https://www.netbeheernederland.nl/_upload/Files/Slimme_meter_15_a727fce1f1.pdf
+[MQTT]: https://nl.wikipedia.org/wiki/MQTT
 
