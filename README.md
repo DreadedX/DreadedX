@@ -7,7 +7,7 @@ Most recently I have picked up [Rust], and have fallen in love with this program
 
 I'm also quite experienced with Linux as I have been daily driving it for the past decade at this point.
 Making me very familiar with the terminal and the different command line tools available.
-And have even been running my own Linux server for quite some time now!
+And have even been running my own Linux server at home for quite some time now!
 
 [Rust]: https://rust-lang.org
 
@@ -31,7 +31,7 @@ However since then I have also connected the [ESP32] to the [CAN bus] of my car,
 ### [Home Automation](https://git.huizinga.dev/Dreaded_X/automation_rs)
 I have slowly been converting my house into my very own smart home!
 It all started with a couple of Philips Hue light bulbs, the Hue app allows for some level of automation but it wasn't quite doing what I wanted.
-So initially I wrote a very simple program in [Go].
+So initially I wrote a very simple program in [Go] to add my own automations.
 As I added more smart devices to my house, the program grew massively in scope with things quickly getting hacked in just to make it work.
 Eventually I decided to rewrite the whole thing in Rust!
 This was my first real Rust after picking up the language during [Advent of Code] and was (and still is) a great learning experience.
@@ -42,7 +42,7 @@ This was my first real Rust after picking up the language during [Advent of Code
 
 ### [Pico P1](https://git.huizinga.dev/Dreaded_X/pico_p1)
 This is my most recent project, as I had recently decided to pick up a [Raspberry Pi Pico W] just to play around with.
-I decided to build a P1 reader to read out my [DSMR5] based smart meter.
+I decided to build a device to read out my [DSMR5] based smart meter using it's P1 port and publish the information using MQTT.
 The main intention of this project is to learn about Rust for embedded devices, which is still a very new ecosystem.
 So far it has been quite a nice experience!
 

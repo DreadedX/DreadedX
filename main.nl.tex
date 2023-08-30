@@ -85,12 +85,20 @@
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
 
-\cvsect{Who Am I?}
+\cvsect{Wie ben ik?}
 
 \begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\input{latex/blurb.tex}
+	Een Applied Physics student met aan passie voor programeren!
+
+	Ik heb het altijd leuk gevonden om te programeren als hobby, en wil er graag mijn baan van maken.
+	Tegenwoordig gaat deze hobby ook vaak samen met de hardware kant.
+	Recent ben ik ook begonnen met het programeren in Rust, en het is snel mijn favoriete programeer taal geworden.
+
+	Daarnaast heb ik ook veel ervaring met Linux, ik gebruik het al bij 10 jaar als mijn daily driver.
+	Hierdoor ben ik erg bekend met de command line en de verschillende tools die daar beschikbaar zijn.
+	Ik draai zelfs al enige tijd mijn eigen Linux server thuis!
 
 \end{minipage}
 
@@ -98,38 +106,38 @@
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\cvsect{Experience}
+\cvsect{Ervaring}
 
 \begin{entrylist}
 	\entry
 		{2019}
 		{App Developer}
 		{EOCE}
-		{I developed in internal Android app to aid in the calibration of temperature sensors.}
+		{Ik heb een interne Android app ontwikkeld voor het kalibreren van temperatuur sensoren.}
 	\entry
 		{2018 -- 2019}
-		{Teaching Assistant}
-		{Delft University of Technology}
-		{I helped others students if they had questions during tutorial sessions for the course Electromagnetism.}
+		{Student Assistent}
+		{TU Delft}
+		{Ik hielp andere studenten als zij vragen hadden tijdens de werkcolleges voor het vak Elektromagnetisme.}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\cvsect{Education}
+\cvsect{Opleiding}
 
 \begin{entrylist}
 	\entry
 		{2019 -- Now}
 		{MSc}
-		{Delft University of Technology}
-		{Applied Physics with a focus on Quantum Computation.}
+		{TU Delft}
+		{Applied Physics met een focus op Quantum Computation.}
 	\entry
 		{2016 -- 2019}
 		{BSc}
-		{Delft University of Technology}
-		{Applied Physics with a minor in Electronics for Robotics.}
+		{TU Delft}
+		{Technische Natuurkunde met een minor in Electronics for Robotics.}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -139,7 +147,7 @@
 \begin{minipage}[t]{0.18\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Programming languages}
+	\cvsect{Programeertalen}
 
 	\iconsvg{rust}{12}{Rust}\\
 	\hfill
@@ -173,9 +181,9 @@
 \begin{minipage}[t]{0.18\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Other skills}
+	\cvsect{Andere vaardigheden}
 
-	\icon{\faCalculator}{12}{Maths}\\
+	\icon{\faCalculator}{12}{Wiskunde}\\
 	\hfill
 	\iconsvg{linux}{12}{Linux}\\
 	\hfill
@@ -189,7 +197,7 @@
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	\vspace{32.35pt} % Make sure it lines up with the rest
 
-	\icon{\faApple*}{12}{Physics}\\
+	\icon{\faApple*}{12}{Natuurkunde}\\
 	\hfill
 	\iconsvg{bash}{12}{Bash}\\
 	\hfill
@@ -197,16 +205,16 @@
 	\hfill
 	\icon{\faMicrochip}{12}{Embedded}\\
 	\hfill
-	\iconempty{12}{Soldering}\\
+	\iconempty{12}{Solderen}\\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.18\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Languages}
+	\cvsect{Talen}
 
-	\textbf{Dutch} - native\\
-	\textbf{English} - near native
+	\textbf{Nederlands} - native \\
+	\textbf{Engels} - near native
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -217,26 +225,63 @@
 \begin{minipage}[t]{1\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\colorbox{black}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Projects}}}}}
+	\colorbox{black}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Projecten}}}}}
 \end{minipage}
 
 \vspace{8pt}
 
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/z80.tex}
+	\cvsect{Z80 Computer}
+
+	Een van mijn eerste grote hardware projecten was een computer ontwerpen rondom the de Z80 microprocessor.
+	Hiervoor moest ik een groot aantal nieuwe vaardigheden leren, waaronder het ontwerpen van PCB's, programeren in Assembly, werken met FPGA's en leren omgaan met een oscilloscope.
+
+	\vspace{3pt}
+
+	\rurl{git.huizinga.dev/Z80/Z80}
+
 	\vspace{6pt}
-	\input{latex/project/pico_p1.tex}
+
+	\cvsect{Pico P1}
+
+	Dit is mijn meest recente project, ik had recent een Raspberry Pi Pico W gekocht om mee rond te spelen.
+	Uiteindelijk heb ik besloten een apparaat te maken om mijn DSMR5 slimme meter uit te lezen via de P1 en deze informatie vervolgen via MQTT te delen.
+	Het doel van dit project was vooral om ervaring op te doen met Rust voor embedded devices, een ecosystem dat nog volop in ontwikkeling is momenteel.
+	Tot nu toe is dit een hele goede ervaring geweest.
+
+	\vspace{3pt}
+
+	\rurl{git.huizinga.dev/Dreaded_X/pico_p1}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/car-stereo.tex}
+	\cvsect{Car Stereo}
+
+	Mijn Peugeot 207 heeft alleen bluetooth voor bellen, dus het leek mijn leuk om mijn eigen bluetooth ontvanger to bouwen met een ESP32 microcontroller.
+	Oorspronkelijk was het doel om gewoon een onvanger to bouwen en deze aan te sluiten op de aux port in het dashboardkastje, maar uiteindelijk is het project toch iets complexer geworden.
+	Het is namelijk nu ook mogelijk om de muziek de bedienen via de knoppen op mijn stuur, dit komt omdat ik de ESP32 aangesloten heb op de CAN bus van mijn auto.
+
+	\vspace{3pt}
+
+	\rurl{git.huizinga.dev/Dreaded_X/car-stereo}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/automation.tex}
+	\cvsect{Home Automation}
+
+	Ik ben langzaam aan bezig om mijn huis om te toveren in een smart home!
+	Het begon allemaal met een aantal Philips Hue lampen, doormiddel van de Hue app is wel wat mogelijk voor automatisering, maar niet precies wat ik wilde.
+	Dus in de eerste instantie had ik een heel simpel programma geschreven in Go om zo mijn eigen automatiseringen mogelijk te maken.
+	Maar naarmate ik meer smart devices toevoegde aan mijn huis werd dit programma steeds complexer, vooral omdat ik alles er een beetje in moest hacken om het werkend te krijgen.
+	Uitendelijk heb ik er voor gekozen om het helemaal opnieuw te bouwen in Rust!
+	Dit was mijn eerste echte project met Rust nadat ik het begonnen was met leren tijdens Advent of Code en het was (en is nog steeds) een heel leerzaam project.
+
+	\vspace{3pt}
+
+	\rurl{git.huizinga.dev/Dreaded_X/automation_rs}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}

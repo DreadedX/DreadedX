@@ -1,7 +1,8 @@
 latex/
-_markdown_main
+_markdown_*
+svg-inkscape/
 *.markdown.*
-main.pdf
+*.pdf
 # Created by https://www.toptal.com/developers/gitignore/api/latex,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex,dotenv
 

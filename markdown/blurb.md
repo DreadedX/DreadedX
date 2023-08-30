@@ -6,6 +6,6 @@ Most recently I have picked up [Rust], and have fallen in love with this program
 
 I'm also quite experienced with Linux as I have been daily driving it for the past decade at this point.
 Making me very familiar with the terminal and the different command line tools available.
-And have even been running my own Linux server for quite some time now!
+And have even been running my own Linux server at home for quite some time now!
 
 [Rust]: https://rust-lang.org
