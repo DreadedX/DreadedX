@@ -4,8 +4,9 @@ project:
     title: Pico P1
 ---
 
-Dit is mijn meest recente project, ik had recent een [Raspberry Pi Pico W] gekocht om mee rond te spelen.
-Uiteindelijk heb ik besloten een apparaat te maken om mijn [DSMR5] slimme meter uit te lezen via de P1 en deze informatie vervolgen via [MQTT] te delen.
+Dit is mijn meest recente project.
+Ik had recent een [Raspberry Pi Pico W] gekocht om mee rond te spelen.
+Uiteindelijk heb ik besloten een apparaat te maken om mijn [DSMR5] slimme meter uit te lezen via de P1 en deze informatie vervolgens via [MQTT] te delen.
 Het doel van dit project was vooral om ervaring op te doen met Rust voor embedded devices, een ecosystem dat nog volop in ontwikkeling is momenteel.
 Tot nu toe is dit een hele goede ervaring geweest.
 

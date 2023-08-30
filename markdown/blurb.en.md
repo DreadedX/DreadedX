@@ -1,6 +1,6 @@
 An Applied Physics student with a passion for programming!
 
-I have always enjoyed programming as a hobby, and would love to make it my carreer.
+I have always enjoyed programming as a hobby, and would love to make it my career.
 Since then I have also combining this hobby with the hardware side of things.
 Most recently I have picked up [Rust], and have fallen in love with this programming language.
 

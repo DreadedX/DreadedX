@@ -1,7 +1,7 @@
 # Hi! I'm Tim Huizinga
 An Applied Physics student with a passion for programming!
 
-I have always enjoyed programming as a hobby, and would love to make it my carreer.
+I have always enjoyed programming as a hobby, and would love to make it my career.
 Since then I have also combining this hobby with the hardware side of things.
 Most recently I have picked up [Rust], and have fallen in love with this programming language.
 
@@ -30,14 +30,16 @@ However since then I have also connected the [ESP32] to the [CAN bus] of my car,
 
 ### [Home Automation](https://git.huizinga.dev/Dreaded_X/automation_rs)
 I have slowly been converting my house into my very own smart home!
-It all started with a couple of [Philips Hue] light bulbs, the Hue app allows for some level of automation but it wasn't quite doing what I wanted.
+It all started with a couple of [Philips Hue] light bulbs.
+The Hue app allows for some level of automation but it wasn't quite doing what I wanted.
 So initially I wrote a very simple program in [Go] to add my own automations.
 As I added more smart devices to my house, the program grew massively in scope with things quickly getting hacked in just to make it work.
-Eventually I decided to rewrite the whole thing in Rust!
+Eventually I decided to rewrite the whole thing in [Rust]!
 This was my first real Rust after picking up the language during [Advent of Code] and was (and still is) a great learning experience.
 
 [Philips Hue]: https://nl.wikipedia.org/wiki/Philips_Hue
 [Go]: https://go.dev
+[Rust]: https://rust-lang.org
 [Advent of Code]: https://adventofcode.com/
 
 ### [Pico P1](https://git.huizinga.dev/Dreaded_X/pico_p1)
