@@ -12,14 +12,14 @@ use walkdir::WalkDir;
 fn main() -> anyhow::Result<()> {
     dotenvy::dotenv().ok();
 
+    generate_readme()?;
+
     generate_lang("en")?;
     generate_lang("nl")?;
 
     generate_latex_from_md()?;
     generate_latex_from_yml()?;
     generate_latex_private()?;
-
-    generate_readme()?;
 
     Ok(())
 }
