@@ -1,11 +1,11 @@
 
-- name: MSc
-  description: Applied Physics met een focus op Quantum Computation.
+- name: Applied Physics MSc
+  description: Met een focus op Quantum Computation gerelateerde vakken.
   at: TU Delft
   start: 2019
 
-- name: BSc
-  description: Applied Physics met een minor in Electronics for Robotics.
+- name: Technische Natuurkunde BSc
+  description: Met een minor in Electronics for Robotics.
   at: TU Delft
   start: 2016
   end: 2019

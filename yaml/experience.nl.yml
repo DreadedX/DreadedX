@@ -1,11 +1,11 @@
 - name: App Developer
-  description: Ik heb een interne Android app ontwikkeld voor het kalibreren van temperatuursensoren.
+  description: Interne Android app ontwikkeld in Java voor het kalibreren van IoT temperatuursensoren.
   at: EOCE
   start: 2019
   end: 2019
 
 - name: Teaching Assistant
-  description: Ik hielp andere studenten als zij vragen hadden tijdens de werkcolleges voor het vak Elektromagnetisme.
+  description: Tijdens werkcolleges voor het vak Elektromagnetisme andere studenten helpen met vragen en het maken van huiswerk
   at: TU Delft
   start: 2018
   end: 2019

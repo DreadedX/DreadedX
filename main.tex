@@ -93,8 +93,19 @@
 
 \cvsect{\WhoAmI}
 
-\begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
+\begin{minipage}[t]{0.25\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\begin{tikzpicture}
+		\clip (0,0)  circle (1.8cm) ;
+		\node[anchor=center] at (0, -0.2) {\includegraphics[width=6cm]{images/pfp.jpg}};
+		%adjust this coordinate to move image
+	\end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{0.75\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\vspace{0.3cm}
 
 	\input{latex/blurb.{{lang}}.md.tex}
 
@@ -195,8 +206,17 @@
 
 	\cvsect{\Languages}
 
-	\textbf{\Dutch} - native\\
-	\textbf{\English} - near native
+	\textbf{\Dutch} \\
+	\hspace*{2em} \Native \\
+	\textbf{\English} \\
+	\hspace*{2em} \NearNative
+
+	\vspace{8pt}
+
+	\cvsect{\Hobbies}
+
+	\AnalogPhotography\\
+	\HouseMusic
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -212,25 +232,24 @@
 
 \vspace{8pt}
 
-\begin{minipage}[t]{0.3\textwidth}
+\begin{minipage}[t]{0.45\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/z80.{{lang}}.md.tex}
+	\input{latex/project/automation.{{lang}}.md.tex}
+
 	\vspace{6pt}
+
+	\input{latex/project/z80.{{lang}}.md.tex}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\input{latex/project/car-stereo.{{lang}}.md.tex}
+
+	\vspace{6pt}
+
 	\input{latex/project/pico_p1.{{lang}}.md.tex}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/car-stereo.{{lang}}.md.tex}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\input{latex/project/automation.{{lang}}.md.tex}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.3\textwidth}
-\end{minipage}
 
 %----------------------------------------------------------------------------------------
 
