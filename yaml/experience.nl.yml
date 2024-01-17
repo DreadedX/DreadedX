@@ -1,3 +1,11 @@
+- name: Stagair
+  description: |
+    Als stagair voor ALTEN heb ik de verschillende onderdelen van het Chengeta Wildlife stropers detectie project, verricht door eerdere stagairs, duidelijk in kaart gebracht.
+    Aan de hand van dit eerdere verrichte werk heb ik een plan opgestelt met concrete stappen om dit project verder door te ontwikkelen tot een geheel.
+  at: ALTEN Nederland
+  start: 2023
+  end: 2024
+
 - name: App Developer
   description: Interne Android app ontwikkeld in Java voor het kalibreren van IoT temperatuursensoren.
   at: EOCE

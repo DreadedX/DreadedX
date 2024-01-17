@@ -1,3 +1,11 @@
+- name: Intern
+  description: |
+    As intern for ALTEN I mapped out the different parts of the Chengeta Wildlife poacher detection project, developed by previous interns.
+    Based on this I put together a plan with concrete steps for further development of the project, with focus on intergrating the existing work together.
+  at: ALTEN Nederland
+  start: 2023
+  end: 2024
+
 - name: App Developer
   description: Developed an internal Android app in Java to aid in the calibration of IoT temperature sensors
   at: EOCE
