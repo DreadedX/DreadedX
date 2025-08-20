@@ -1,8 +1,43 @@
+- name: Consultant
+  description: |
+    As a consultant for ALTEN I bring my software development expertise to other companies to help them out with various projects.
+    But when I between assignments
+    The goal of this project is to take in measurement data, collected by sending vibrations into the earth and measuring the response in several different location, and performing a process called full wave inversion.
+    This process makes it possible to gain insight into the speed of the soundwaves underground and could therefore reveal certain properties underground.
+
+    I have worked on almost all aspects of this project, ranging from building the User Interface, to refactoring the codebase, to improving the build system and Azure Devops pipeline.
+
+  at: ALTEN
+  start: 2024
+
+- name: Software Developer (via ALTEN)
+  description: |
+    At Grimbergen they were working on a robot to mill the rough surface of the walls of the Hubertustunnel in The Hague, but the project started to run out of time.
+    So a couple of colleagues and I where brought in to turn to project around. During this project the deadlines where very tight, only one month before a big test and demo, and only three months before the project needed to be finished.
+    During this time I had to quickly learn ROS (Robot Operating System) as I had no prior experience, but within no time I was speed and ended up playing a leading role in ensuring the project was (for the most part) done in time.
+
+    As the robot is currently deployed I have taken a maintenance role in the project fixing issues as they popup, while also taking part in the startup phase for the next project.
+
+  at: Grimbergen
+  start: 2025
+
+- name: Software Developer (via ALTEN)
+  description: |
+    I was brought in to update the Yocto Linux based embedded Linux distribution running on several of their public transit products to the latest version.
+    During this project I was essentially the sole developer working on this update and as a result I had a wide range of responsibilities.
+    This included updating build files so they would build with the new version, testing the new distribution to ensure everything worked, updating the installation tools to ensure compatibility, and modifying the FTDI linux driver to support an odd configuration that was not properly accounted for in the hardware.
+
+    At the same time I was also in charge of maintaining the existing distribution and fixing issues in both the old and new distribution when they got reported.
+
+  at: SWARCO
+  start: 2024
+  end: 2025
+
 - name: Intern
   description: |
     As intern for ALTEN I mapped out the different parts of the Chengeta Wildlife poacher detection project, developed by previous interns.
-    Based on this I put together a plan with concrete steps for further development of the project, with focus on intergrating the existing work together.
-  at: ALTEN Nederland
+    Based on this I put together a plan with concrete steps for further development of the project, with focus on integrating the existing work together.
+  at: ALTEN
   start: 2023
   end: 2024
 
